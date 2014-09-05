@@ -8,6 +8,7 @@ public class DataHandler : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		Application.runInBackground = true;
 	}
 	
 	// Update is called once per frame
