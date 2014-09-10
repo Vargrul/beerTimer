@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<beerTimes>
+	<fastestTime>4.40</fastestTime>
+	<user>
+		<name>Kasper Skou Ladefoged</name>
+		<personalBest>5.64</personalBest>
+		<sex>Male</sex>
+		<dates>
+			<date>07/09/2014</date>
+			<drinkingTimes>
+				<approved>false</approved>
+				<drinkTime>5.26</drinkTime>
+			</drinkingTimes>
+			<drinkingTimes>
+				<approved>true</approved>
+				<drinkTime>5.64</drinkTime>
+			</drinkingTimes>
+			<drinkingTimes>
+				<approved>false</approved>
+				<drinkTime>5.23</drinkTime>
+			</drinkingTimes>
+		</dates>
+	</user>
+</beerTimes>

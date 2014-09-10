@@ -4,7 +4,6 @@ using System.Collections;
 public class GuiHandler : MonoBehaviour {
 
 	public GUIText timer;
-	public GUIText timerShadow;
 
 	public GUITexture background;
 	private int oldScrW, oldScrH;
@@ -18,7 +17,6 @@ public class GuiHandler : MonoBehaviour {
 	void Start () {
 		updateTimeStamp = true;
 		timer.text = "00:00:00,00";
-		timerShadow.text = "00:00:00,00";
 		setGuiBackground();
 	}
 	
@@ -50,7 +48,6 @@ public class GuiHandler : MonoBehaviour {
 
 			timer.color = new Color(1.0f,1.0f,0.0f);
 			timer.text = tempTimerText;
-			timerShadow.text = tempTimerText;
 		}
 		if(newTime){
 			if(h < 10) tempTimerText = "0" + h.ToString() + ":"; else tempTimerText = h.ToString() + ":";
@@ -60,7 +57,6 @@ public class GuiHandler : MonoBehaviour {
 			
 			timer.color = new Color(0.0f,1.0f,0.0f);
 			timer.text = tempTimerText;
-			timerShadow.text = tempTimerText;
 
 			newTime = false;
 			running = false;
