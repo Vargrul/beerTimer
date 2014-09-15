@@ -1,24 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?>
-<beerTimes>
-	<fastestTime>4.40</fastestTime>
-	<user>
-		<name>Kasper Skou Ladefoged</name>
-		<personalBest>5.64</personalBest>
-		<sex>Male</sex>
-		<dates>
-			<date>07/09/2014</date>
-			<drinkingTimes>
-				<approved>false</approved>
-				<drinkTime>5.26</drinkTime>
-			</drinkingTimes>
-			<drinkingTimes>
-				<approved>true</approved>
-				<drinkTime>5.64</drinkTime>
-			</drinkingTimes>
-			<drinkingTimes>
-				<approved>false</approved>
-				<drinkTime>5.23</drinkTime>
-			</drinkingTimes>
-		</dates>
-	</user>
+<?xml version="1.0" encoding="Windows-1252"?>
+<beerTimes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <fastestTime>4.4</fastestTime>
+  <rankIndex>1</rankIndex>
+  <user>
+    <name>Kasper Skou Ladefoged</name>
+    <personalBest>5.64</personalBest>
+    <gender>MALE</gender>
+    <dates>
+      <drinkingTimes>
+        <approved>false</approved>
+        <drinkTime>5.26</drinkTime>
+      </drinkingTimes>
+      <drinkingTimes>
+        <approved>true</approved>
+        <drinkTime>5.64</drinkTime>
+      </drinkingTimes>
+      <date>13-09-2014</date>
+    </dates>
+  </user>
 </beerTimes>

@@ -1,0 +1,1 @@
+﻿public enum E_GENDER { MALE, FEMALE };
