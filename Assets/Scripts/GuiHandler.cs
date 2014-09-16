@@ -13,7 +13,7 @@ public class GuiHandler : MonoBehaviour {
 	public int h,m,s,ms;
 	private float startTime;
 
-	// Use this for initialization
+    // Use this for initialization
 	void Start () {
 		updateTimeStamp = true;
 		timer.text = "00:00:00,00";
@@ -23,11 +23,26 @@ public class GuiHandler : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		//Updates time when new precise time is passed
-		setGuiTimer();
-		setGuiBackground();
+
 
 	}
+
+    void OnGUI() {
+        //Updates time when new precise time is passed
+        setGuiBackground();
+		setGuiTimer();
+
+        guiButtons();
+    }
+
+    void guiButtons() {
+
+        //Add User Button
+        if (GUI.Button(new Rect(10, 10, 100, 50), "Add User")) {
+
+        }
+
+    }
 
 	void setGuiTimer(){
 		if(running && !newTime){

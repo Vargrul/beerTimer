@@ -17,7 +17,7 @@ using System.IO.Ports;
 
 public class ArduinoDataReceiver : MonoBehaviour
 {
-	#region Variables
+#region Variables
 	private bool applicationStarted = false;
 	
 // COMPort and baut-rate to open
